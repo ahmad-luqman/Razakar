@@ -6,7 +6,7 @@ using Telerik.XamarinForms.Common.DataAnnotations;
 
 namespace Razakar.ViewModels
 {
-    public class RequestRazakarViewModel : NotifyPropertyChangedBase
+    public class RequestRazakarOppurtunityViewModel : NotifyPropertyChangedBase
     {
         private DateTime _date = DateTime.Now;
         private DateTime _time = DateTime.Now;

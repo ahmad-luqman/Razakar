@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:input="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
              xmlns:viewModels="clr-namespace:Razakar.ViewModels"
-             x:Class="Razakar.Views.RequestRazakarPage">
+             x:Class="Razakar.Views.RequestRazakarOppurtunityPage">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
                 <input:RadDataForm x:Name="dataForm">
                     <input:RadDataForm.Source>
-                        <viewModels:RequestRazakarViewModel />
+                        <viewModels:RequestRazakarOppurtunityViewModel />
                     </input:RadDataForm.Source>
                 </input:RadDataForm>
                 <!--<Button Text="Register" Clicked="Request_Clicked" BackgroundColor="Red" TextColor="White" />-->

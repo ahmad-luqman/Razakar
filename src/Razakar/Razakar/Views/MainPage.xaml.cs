@@ -36,7 +36,7 @@ namespace Razakar.Views
                         MenuPages.Add(id, new NavigationPage(new SignUpVolunteerPage()));
                         break;
                     case (int)MenuItemType.RequestRazakar:
-                        MenuPages.Add(id, new NavigationPage(new RequestRazakarPage()));
+                        MenuPages.Add(id, new NavigationPage(new RequestRazakarOppurtunityPage()));
                         break;
                     case (int)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));

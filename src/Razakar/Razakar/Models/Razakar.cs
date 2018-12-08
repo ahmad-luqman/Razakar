@@ -6,6 +6,7 @@ namespace Razakar.Models
 {
     public class Razakar
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
         public string Qualification { get; set; }
