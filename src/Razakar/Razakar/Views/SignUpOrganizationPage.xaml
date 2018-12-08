@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+             xmlns:viewModels1="clr-namespace:Razakar.ViewModels;assembly=Razakar"
+             x:Class="Razakar.Views.SignUpOrganizationPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <input:RadDataForm x:Name="dataForm">
+                    <input:RadDataForm.Source>
+                        <viewModels1:SignUpOrganizationViewModel />
+                    </input:RadDataForm.Source>
+                </input:RadDataForm>
+                <Button Text="Register" Clicked="Register_Clicked" BackgroundColor="Red" TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+        <!--<StackLayout>
+            --><!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />--><!--
+            <Entry Text="{Binding OrganizationName}"/>
+            <Entry Text="{Binding EmailAddress}" />
+            <Entry Text="{Binding PhoneNumber}" />
+            <Entry Text="{Binding Location}"/>
+        </StackLayout>-->
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+             xmlns:viewModels="clr-namespace:Razakar.ViewModels"
+             x:Class="Razakar.Views.RequestRazakarPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <input:RadDataForm x:Name="dataForm">
+                    <input:RadDataForm.Source>
+                        <viewModels:RequestRazakarViewModel />
+                    </input:RadDataForm.Source>
+                </input:RadDataForm>
+                <!--<Button Text="Register" Clicked="Request_Clicked" BackgroundColor="Red" TextColor="White" />-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
