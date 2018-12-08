@@ -17,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\RequestRazakarOppurtunityPage.xaml.cs">
+      <DependentUpon>RequestRazakarOppurtunityPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\SignUpOrganizationPage.xaml.cs">
       <DependentUpon>SignUpOrganizationPage.xaml</DependentUpon>
     </Compile>
@@ -29,7 +32,10 @@
     <EmbeddedResource Update="Views\AuthenticationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\RequestRazakarPage.xaml">
+    <EmbeddedResource Update="Views\ListRazakarsForOpportunityPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RequestRazakarOppurtunityPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SignUpOrganizationPage.xaml">
