@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razakar.Android", "Razakar\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razakar.iOS", "Razakar\Razakar.iOS\Razakar.iOS.csproj", "{D45F9926-1431-4DC4-848A-8060AFE8376B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razakar.MobileAppService", "Razakar\Razakar.MobileAppService\Razakar.MobileAppService.csproj", "{A10E1454-3A4B-4C8D-9670-8B7B8A62F163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razakar.MobileAppService", "Razakar\Razakar.MobileAppService\Razakar.MobileAppService.csproj", "{A10E1454-3A4B-4C8D-9670-8B7B8A62F163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razakar", "Razakar\Razakar\Razakar.csproj", "{ECD47786-E91C-47B8-AB54-3C4A059A969A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razakar", "Razakar\Razakar\Razakar.csproj", "{ECD47786-E91C-47B8-AB54-3C4A059A969A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RazakarDatabase", "RazakarDatabase\RazakarDatabase.sqlproj", "{C4B072E7-98FB-4DE6-8DD6-207971AC8838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,24 @@ Global
 		{ECD47786-E91C-47B8-AB54-3C4A059A969A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{ECD47786-E91C-47B8-AB54-3C4A059A969A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{ECD47786-E91C-47B8-AB54-3C4A059A969A}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhone.Build.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C4B072E7-98FB-4DE6-8DD6-207971AC8838}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
